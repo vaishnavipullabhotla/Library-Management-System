@@ -23,10 +23,13 @@ private static final String DB_URL = "jdbc:mysql://localhost:3306/library_db?ser
 private static final String USER = "root";
 private static final String PASS = "yourpassword";
 
+Compile
 javac -cp .;mysql-connector-j-9.4.0.jar LibraryApp.java
+
+Run
 java -cp .;mysql-connector-j-9.4.0.jar LibraryApp
 
-Database Setup
+## Database Setup
 CREATE DATABASE library_db;
 USE library_db;
 
